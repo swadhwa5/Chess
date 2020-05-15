@@ -1,0 +1,51 @@
+TEAM:
+Yiyang Li(yli302)
+Qinyuan Wu(qwu29)
+Shreya Wadhwa(swadhwa5)
+
+DESIGN:
+Our program relies on 3 major verticals: Piece.h/Piece.cpp(which is the base class for all kinds of Pieces), Chess.cpp/Chess.h and Board.cpp/Board.h
+
+Pieces
+
+We have different classes representing the different Pieces on the Chess board, namely: King, Queen, Bishop, Rook, Knight, pawn. The legal_move_shape and legal_capture_shape functions are virtual in Piece.h. 
+-Legal_move_shape is overridden in all Pieces, defining the legal moves for these pieces.
+-Legal_capture_shape is overridden only in Pawn.cpp and Pawn is the only piece whose move is different from capture.
+
+
+Board
+
+Board.cpp contains all the helper functions used in our program(except for available function), as it allows access to the map. The use of other helper functions that we created are explained in board.h and are mainly used by make_move in chess.cpp. The most important ones are path_blocked and move_and_capture, as the first one recognizes the moving pattern a user has entered and checks if that path is clear* and the latter one makes the decision whether it is a capture or normal move based on if there’s an opponent’s piece at the end location and changes the board status accordingly. 
+
+*path_blocked does NOT check for weird movements that are not in a straight line fashion and automatically returns true for these movements(e.g. L-shape). This makes the function more versatile and can deal with the mystery piece.
+
+
+Chess
+
+In_check: the most straight-forward check and is fundamental to all other checks. We locate the position of king, and iterate through all the pieces to see if there is a legal capture move for any of them to capture the king(put the king’s location as the end position), and if there is anything blocking in between(path_blocked). No chess copies were made in this function.
+
+Make_move: immediately returns false if: 1)the entered positions are invalid, 2)trying to move a piece that does not belong to the current player. Then we gather information about the piece the user trying to move(its color, type, and its pointer) and first test out the move(move_and_capture) on a chess copy and immediately return false if the move causes the current player to be in check. If in check didn’t happen, the move is implemented on the actual chess. In both the copied and the actual chess, pawn is treated differently because it has different capture and movement shape. A switch case is used when we move the pieces on the actual chess, because certain pieces require a path check(path_blocked) on top of passing legal_move/capture_shape. We also promote the pawn by deleting it and inserting a new queen piece to the map if it is able to move/capture and end up on the opposite side of the board(has_reached_end). The mystery class is set to default in the switch case and goes through the same inspection as queen, bishop, and rook whose path need to be checked.
+
+In_stalemate & in_mate: both are implemented with the helper function available. In available, we use a map iteration to try moving each piece of the current player to all the positions on the board by calling make_move, and return true if the move is successful. In in_mate, we ensure that the current player is being checked, and use available to see if there is any legal move that could uncheck the player. If no legal move exists, the player is in checkmate and return true. In stalemate, we ensure that the current player is not being checked, and use available to see if there is any legal move. If no legal move exists, then the player is in stalemate and return true.
+
+
+Memory Handling
+
+We have a few measures to prevent memory leaks:
+
+Board destructor: deletes the pieces stored in the map which are the only memories allocated by the program. We also call .erase() to remove that entry from the map.
+
+Pawn promotion: Because pawn promotion is implemented inside Chess.cpp where we can’t access the map, we created a helper function erase_piece in board that deletes the promoted pawn.
+
+Chess copy constructor: the chess object is deep copied.
+
+Move_piece: when the capture boolean value for move_piece is false, there is indeed no piece at the end position so that we don’t accidentally replace an opponent’s piece in the map without actually deleting its memory.
+
+Load new game: board destructor is called to free the pieces in the old map before loading the chess and inserting new pieces from the input file.
+
+
+COMPLETENESS: our code is capable of completing all functions required by the project.
+SPECIAL INSTRUCTION: No special instructions required.
+
+OTHER:
+Our board is named “SOS Master Chess” and SOS stands for Shreya, Olivia. and Sky. It is beautifully designed with an inspiring quote that would hopefully light up your day, extra credit pleeease QAQ

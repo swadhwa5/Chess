@@ -1,0 +1,680 @@
+commit 12f33b0587220dc8b03c516451be11ec353461ba
+Merge: c88fe75 672d8b8
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Thu Dec 5 22:19:39 2019 -0500
+
+    Merge branch 'master' of https://bitbucket.org/QinyuanWu/cs220final
+
+commit c88fe753ec9d7183ac9385831fe28478c944be23
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Wed Dec 4 22:57:52 2019 -0500
+
+    comments added
+
+commit c2b7d92b815ad3a971192dd06ce6440f11ced2fe
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Wed Dec 4 22:57:34 2019 -0500
+
+    comments added
+
+commit 672d8b8b2c937bf6cbd828228d0ce3eccb2d5086
+Author: Qinyuan Wu <qwu29@jhu.edu>
+Date:   Wed Dec 4 22:53:34 2019 -0500
+
+    readme
+
+commit f7bd193b857365ad0dadf6133f6622d689aebcd0
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Wed Dec 4 14:55:06 2019 -0500
+
+    code cleaned up
+
+commit 5b4a96c4e447ef2ab729ea8864c2969f99fb235b
+Author: Qinyuan Wu <qwu29@jhu.edu>
+Date:   Wed Dec 4 02:07:01 2019 -0500
+
+    pawn issue solved
+
+commit 0bc1d15ac75159a68b723b88c0f39f74ce644dd6
+Author: Qinyuan Wu <qwu29@jhu.edu>
+Date:   Wed Dec 4 01:04:49 2019 -0500
+
+    makefile and >> operator
+
+commit e18dab55cea4a8ebcc02fe5dd7a4a34552c85424
+Author: Qinyuan Wu <qwu29@jhu.edu>
+Date:   Wed Dec 4 00:26:09 2019 -0500
+
+    memory leak unresolved, chess deconsturctor cancelled
+
+commit 9851003cf4ea5b749afa958a0d566eaf20b82d15
+Author: Qinyuan Wu <qwu29@jhu.edu>
+Date:   Tue Dec 3 23:07:24 2019 -0500
+
+    checkmate partially? fixed
+
+commit 32dfb53c018fb394f39bb857c60cec417b0277ee
+Author: Qinyuan Wu <qwu29@jhu.edu>
+Date:   Tue Dec 3 22:18:42 2019 -0500
+
+    memory leaks
+
+commit cd1136c8ce3d7058bdada9bfa53596c13540265a
+Author: Qinyuan Wu <qwu29@jhu.edu>
+Date:   Tue Dec 3 10:53:40 2019 -0500
+
+    added chess destructor not working
+
+commit 8b47fd39ac8bdf8417995e00f409330e4d9f18b7
+Author: Yiyang Li <yli302@jhu.edu>
+Date:   Tue Dec 3 10:19:07 2019 -0500
+
+    i think the bugs are solved
+
+commit 979ce489798df6af1b96c1028c10ee5ed8ef1cb8
+Author: Qinyuan Wu <qwu29@jhu.edu>
+Date:   Tue Dec 3 01:30:19 2019 -0500
+
+    segfault
+
+commit ea55f14416eb881cff1c2bab743b2703dd306b24
+Author: Qinyuan Wu <qwu29@jhu.edu>
+Date:   Tue Dec 3 01:10:18 2019 -0500
+
+    mystery and segfault
+
+commit 752242d43ed2539e382274db878537de5551d96f
+Author: Qinyuan Wu <qwu29@jhu.edu>
+Date:   Mon Dec 2 23:37:57 2019 -0500
+
+    promotion problem
+
+commit ed59041eb64009fcaa7f4f28ca34418dad56bcc0
+Author: Qinyuan Wu <qwu29@jhu.edu>
+Date:   Mon Dec 2 23:07:35 2019 -0500
+
+    turns
+
+commit 708a0738d216f4edce204981c5c183975d09fe5b
+Author: Qinyuan Wu <qwu29@jhu.edu>
+Date:   Mon Dec 2 23:00:54 2019 -0500
+
+    instream problem
+
+commit b5ec25eb47493c8624c3342551c255d64b547358
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Mon Dec 2 22:21:07 2019 -0500
+
+    removed comments
+
+commit 43e8944d94aff592a276afdb0f17e2945debc7d5
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Mon Dec 2 22:10:00 2019 -0500
+
+    minor change to stalemate
+
+commit 2f24e1e84984b973a6951e4f8232f2b2836be4db
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Mon Dec 2 22:05:07 2019 -0500
+
+    resolving errors
+
+commit d867d1fc65009c56792b551515b32478e84745e8
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Mon Dec 2 22:04:54 2019 -0500
+
+    resolving errors
+
+commit dd9bf00551387e305350018df2c57d3117401cbc
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Mon Dec 2 20:11:34 2019 -0500
+
+    changed the copy constructor function
+
+commit 4fc8676cad753a16a45ad5c11fcd0eadb1387439
+Author: Qinyuan Wu <qwu29@jhu.edu>
+Date:   Mon Dec 2 19:09:09 2019 -0500
+
+    updates to print statement
+
+commit 39966fabb8bbc5b7e0cac8be17ebd2067117121a
+Author: Yiyang Li <yli302@jhu.edu>
+Date:   Mon Dec 2 14:51:41 2019 -0500
+
+    still trying to debug
+
+commit 047f39adace441f2d6131eb0e7b57d0448f5bca3
+Author: Yiyang Li <yli302@jhu.edu>
+Date:   Mon Dec 2 14:42:29 2019 -0500
+
+    debugging :(
+
+commit d7b68ada7a1604c7d3d747cf9493f8afbeee7c33
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Mon Dec 2 14:34:02 2019 -0500
+
+    minor changes
+
+commit 613a61297d9445cd151205dc36f8bf60e9049ce8
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Mon Dec 2 14:01:51 2019 -0500
+
+    removed rendundant get_map function
+
+commit 74d0627b39c312ad4af7ee5d93797faf5fcdacdb
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Mon Dec 2 14:01:29 2019 -0500
+
+    working on seg fault
+
+commit 74b1952a6e35fe8a01cbc9af8bc89c83df9a677a
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Mon Dec 2 12:38:13 2019 -0500
+
+    print statements added to resolve seg fault
+
+commit 7c7488b75c54e490e2782dabeca52d6efba6b680
+Author: Qinyuan Wu <qwu29@jhu.edu>
+Date:   Mon Dec 2 01:36:48 2019 -0500
+
+    stalemate logic fix
+
+commit f4c76563322dff1e0518db84abff8059d7e2b491
+Author: Yiyang Li <yli302@jhu.edu>
+Date:   Mon Dec 2 00:06:18 2019 -0500
+
+    small edit
+
+commit dcd73431cd834c20dee4d0a86eaa719baf02eb15
+Author: Yiyang Li <yli302@jhu.edu>
+Date:   Mon Dec 2 00:05:13 2019 -0500
+
+    small edit
+
+commit 4eb399cf5071411a40304a4e32b5979c13ca14c7
+Merge: cf975e8 12eee85
+Author: Yiyang Li <yli302@jhu.edu>
+Date:   Mon Dec 2 00:04:08 2019 -0500
+
+    stuff
+
+commit cf975e8c55399ad0475b833bb83a28ad59f4fcb4
+Author: Yiyang Li <yli302@jhu.edu>
+Date:   Mon Dec 2 00:03:20 2019 -0500
+
+    stuff
+
+commit 12eee85219c15cea789aa9ff73ec419400f391f8
+Author: Qinyuan Wu <qwu29@jhu.edu>
+Date:   Mon Dec 2 00:01:30 2019 -0500
+
+    add createpiece to main
+
+commit 1d7ceaa6c9da2db3d0440f646fc4b7bba2e03d5a
+Author: Yiyang Li <yli302@jhu.edu>
+Date:   Sun Dec 1 23:46:00 2019 -0500
+
+    Makefile debug
+
+commit 5a6a8c97b48bd940de74733bfd1cdec2ffbeeaa3
+Author: Qinyuan Wu <qwu29@jhu.edu>
+Date:   Sun Dec 1 23:37:07 2019 -0500
+
+    no board/chess compile error
+
+commit eee8f26e7207a9ada6b52f7cc1ec5b237bb2db31
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Sun Dec 1 22:25:39 2019 -0500
+
+    corresponding syntax changes made to Chess.h
+
+commit 9c68813851d5e0e32e7ac43ba20a8f1e4e69c476
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Sun Dec 1 22:24:44 2019 -0500
+
+    available func now returns a bool value instead of vector
+
+commit 16f7f8f74d1c16f8267669fee0c931dcd4e9257a
+Author: Yiyang Li <yli302@jhu.edu>
+Date:   Sun Dec 1 22:13:40 2019 -0500
+
+    little adjustment
+
+commit 858bd3191b5bec9ae58519ee94fb9157ac0c8566
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Sun Dec 1 22:07:44 2019 -0500
+
+    in_check functionality added to stalemate
+
+commit 75a6bdeefd04bf4620b5dd296d08d7b757a4a248
+Author: Qinyuan Wu <qwu29@jhu.edu>
+Date:   Sun Dec 1 21:16:55 2019 -0500
+
+    fixing compile errors
+
+commit a5e2a4c54788bf533b12e792a17ff527fd86a11f
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Sun Dec 1 20:03:31 2019 -0500
+
+    minor changes to available and stalemte
+
+commit e31df8a62a86ac8642dc3dd12fd2867b0a4aaf34
+Author: Qinyuan Wu <qwu29@jhu.edu>
+Date:   Sun Dec 1 19:53:55 2019 -0500
+
+    fixing compile erros
+
+commit 4c17bcaa80c0a887ccb54150cd7ea5a3ce76d373
+Author: Qinyuan Wu <qwu29@jhu.edu>
+Date:   Sun Dec 1 19:42:19 2019 -0500
+
+    implemented in_check in make_move
+
+commit d7612052bd0c96356054edfd2dadbacde0d7901f
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Sun Dec 1 18:57:53 2019 -0500
+
+    removed available func from here and started make_move_and_check
+
+commit a36e339d06314c58e973d366b4f0d47c7977e09b
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Sun Dec 1 18:57:22 2019 -0500
+
+    moved available func here
+
+commit 97e654bd427d764ca05a9d8525f020d6e025cea5
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Sun Dec 1 02:59:44 2019 -0500
+
+    comments added to available function
+
+commit 89e0c7d93d50a21622b032b7e33c0779d53b9ccf
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Sun Dec 1 02:57:49 2019 -0500
+
+    comments added to stalemate
+
+commit 60dca433735ce2f1382b52037a38d40eb3163b32
+Author: Qinyuan Wu <qwu29@jhu.edu>
+Date:   Sun Dec 1 02:31:18 2019 -0500
+
+    fixing compile errors
+
+commit b6110daa36d9f4480c17d1d43ce2196d4079fa6b
+Author: Qinyuan Wu <qwu29@jhu.edu>
+Date:   Sat Nov 30 22:29:41 2019 -0500
+
+    fix compile error
+
+commit 5b1542abe456c3ae3567ee1a129f5c4ba97b6f3e
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Sat Nov 30 20:05:34 2019 -0500
+
+    resolves all errors for now
+
+commit 426cbb4b6bbc0439566336e3f0b44b8665c49bb3
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Sat Nov 30 20:03:37 2019 -0500
+
+    resolving comiplation errors
+
+commit 31af30f77f25c308c8c76d14a552fd15a54d1b66
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Sat Nov 30 19:08:49 2019 -0500
+
+    all compilation errors resolved
+
+commit 3810416d7790a44b0cb0f917f29e2eaf5356ccae
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Sat Nov 30 11:51:25 2019 -0500
+
+    minor chnges in const status of some things, issue still not resolved
+
+commit d45df8a74c58034fe0b3e7c304b7dc823cfa149e
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Sat Nov 30 11:10:55 2019 -0500
+
+    resolving errors
+
+commit f9fedfc29c133eb4884ffb9cfba1aaa043acfa51
+Merge: 9b74ebf e15dd86
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Sat Nov 30 10:59:42 2019 -0500
+
+    resolving compilation errors
+
+commit 9b74ebf5e170e0bbed7fb105ba7614606da98c3b
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Sat Nov 30 10:52:27 2019 -0500
+
+    resolving compilation errors
+
+commit 6912de5c30d3d6cdf65b42fb735b49deab62728d
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Sat Nov 30 10:52:08 2019 -0500
+
+    resolving compilation errors
+
+commit e15dd8628aacac57c809fa0abfb3eb8315e6d84e
+Author: Yiyang Li <yli302@jhu.edu>
+Date:   Fri Nov 29 18:47:36 2019 -0500
+
+    debugging and adjustments. Copy constructor for Chess added
+
+commit 0209e2d4764e9fb83afbb2db3f27fa72a7c5aac9
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Fri Nov 29 15:10:56 2019 -0500
+
+    moved def of available func from chess.cpp to Board.cpp
+
+commit 25138055c9a1e92829a590b9b7ec97f69e9a6ab8
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Fri Nov 29 15:08:03 2019 -0500
+
+    minor change
+
+commit 761482eaaa7978400993c56b8ab0a4712dbb9bcf
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Fri Nov 29 15:05:47 2019 -0500
+
+    get_map func use added
+
+commit 9d64e70d2df6b48fe36291919228533aab125035
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Fri Nov 29 15:04:04 2019 -0500
+
+    destructor added
+
+commit 7eeec318d0cb6bb891d2b00813379f4f8eb74e1c
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Fri Nov 29 01:55:09 2019 -0500
+
+    in_check and promotion added
+
+commit 08419c9c0044f969dccf2b8c1c3f9c532e75126b
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Thu Nov 28 17:17:55 2019 -0500
+
+    some funcitonality for in_check and promotion added to make_move
+
+commit 6a4d9619abe9db6bf1a3e8bd7a128bbf9673f4da
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Thu Nov 28 17:16:25 2019 -0500
+
+    has_reached_end and available helper funcs added
+
+commit 15b1b3f24ae245cfcb2a98b0e5bac4caf1569965
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Thu Nov 28 17:15:46 2019 -0500
+
+    func def for has_reached_end and available added
+
+commit cafff371983f3470a8dbb68ffac2907f5917b94c
+Author: Yiyang Li <yli302@jhu.edu>
+Date:   Thu Nov 28 02:36:18 2019 -0500
+
+    copy contructor and = operator overload added. In mate function implemented
+
+commit b149ae3fd8293acb7820c559e27f097ca23cdf90
+Merge: 253c7ba e9332e0
+Author: Yiyang Li <yli302@jhu.edu>
+Date:   Wed Nov 27 16:55:04 2019 -0500
+
+    edited incheck function using map
+
+commit 253c7baf504c213013b4357f213737b3f29c4f7e
+Author: Yiyang Li <yli302@jhu.edu>
+Date:   Wed Nov 27 16:50:32 2019 -0500
+
+    modified incheck to use map for clarity
+
+commit e9332e0c3f880083553945ba5e012ae20a42ab94
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Wed Nov 27 13:44:33 2019 -0500
+
+    some compilation erors fixed
+
+commit 78a8510bec0b44b3c225e03f35ba12eee9eea279
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Wed Nov 27 12:57:13 2019 -0500
+
+    more compilation errors fixed
+
+commit d011f648b13b91c60594e8e652894cedae66fb80
+Author: Qinyuan Wu <qwu29@jhu.edu>
+Date:   Tue Nov 26 23:24:26 2019 -0500
+
+    make_move complete
+
+commit 92f4d3b3afa2a2bb503d823515c19768df443045
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Tue Nov 26 21:58:32 2019 -0500
+
+    some compilation errors fixed
+
+commit 929b20847aa253a71db1dbe6a50534a8fff25d1e
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Tue Nov 26 21:58:04 2019 -0500
+
+    compilation errors fixed
+
+commit 7ae2e36b2e0b33f9575669ead16c275dff84798a
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Sun Nov 24 16:40:24 2019 -0500
+
+    minor typo in Board.cpp
+
+commit bd62a210e7e9b63672bbfc928714d7f5a8ad2a72
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Sun Nov 24 16:39:56 2019 -0500
+
+    Stalemate function finishe, a helper function added
+
+commit c736da3d49a1a4ba5e47c76bb06cf1a3346b4421
+Author: Yiyang Li <yli302@jhu.edu>
+Date:   Fri Nov 22 22:44:33 2019 -0500
+
+    work on mate function
+
+commit f98c427d9ebcd6493a9cac2b7f04147b51610add
+Merge: 6e0a421 8fd3733
+Author: Qinyuan Wu <qwu29@jhu.edu>
+Date:   Fri Nov 22 16:44:28 2019 -0500
+
+    Merge branch 'master' of https://bitbucket.org/QinyuanWu/cs220final
+
+commit 6e0a421e2d80995d12afa60dbc4516a962e7ac62
+Author: Qinyuan Wu <qwu29@jhu.edu>
+Date:   Fri Nov 22 16:44:16 2019 -0500
+
+    display implemented
+
+commit 8fd373373b30758411920b3a370c7bf0dfab4213
+Author: Yiyang Li <yli302@jhu.edu>
+Date:   Fri Nov 22 14:24:42 2019 -0500
+
+    fixed some error
+
+commit a1e3cfe561def3b7e7c67b2e68f32d36886fcc53
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Fri Nov 22 14:18:01 2019 -0500
+
+    minor changes to in_check
+
+commit 25104495e6fa30ed741993e860da49b25d4e090d
+Author: Yiyang Li <yli302@jhu.edu>
+Date:   Fri Nov 22 13:46:24 2019 -0500
+
+    minor error modification
+
+commit 8dccba9cdab2252190bed6fa4e79252ae704cdf1
+Merge: 042a017 a6ff2e7
+Author: Yiyang Li <yli302@jhu.edu>
+Date:   Fri Nov 22 13:38:51 2019 -0500
+
+    Merge branch 'master' of https://bitbucket.org/QinyuanWu/cs220final
+
+commit 042a01744adfbeed9e466740603265a58d2d79ab
+Author: Yiyang Li <yli302@jhu.edu>
+Date:   Fri Nov 22 13:38:06 2019 -0500
+
+    inmate function done`
+
+commit a6ff2e7acc588d17bfedc9b8b6c61adc1d32e48e
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Fri Nov 22 13:32:26 2019 -0500
+
+    minor changes in Chess.cpp
+
+commit 9b5f433010347986b16d3f1087c447c4a6eb4078
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Thu Nov 21 23:17:54 2019 -0500
+
+    Started Stalemate, not complete yet
+
+commit 14ee34e0d07153c7666c8bd063576bd8a660341d
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Thu Nov 21 23:07:24 2019 -0500
+
+    minor changes to operator<< function
+
+commit 71da982ca9970add2dacc6fe95c643a59b22d755
+Merge: fed9c99 995d6cb
+Author: Yiyang Li <yli302@jhu.edu>
+Date:   Tue Nov 19 19:32:31 2019 -0500
+
+    Merge branch 'master' of https://bitbucket.org/QinyuanWu/cs220final
+
+commit fed9c9978d4deb05a4e469f39d3711a72019cc53
+Author: Yiyang Li <yli302@jhu.edu>
+Date:   Tue Nov 19 19:29:20 2019 -0500
+
+    ignore this. Commit to pull
+
+commit 53fd49e93abefd03566220bff8ff3f4b28cbeeca
+Author: Yiyang Li <yli302@jhu.edu>
+Date:   Tue Nov 19 19:24:42 2019 -0500
+
+    Makefile edits
+
+commit 995d6cb4fbdcb4e8de120b693755c7a45078ac55
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Tue Nov 19 19:21:31 2019 -0500
+
+    minor syntax change made to _blocked functions
+
+commit 8d07e6623d29dca3df08c1c82a214990db4138b7
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Tue Nov 19 19:20:32 2019 -0500
+
+    operator >> done for now in chess.cpp, and stalemate function started
+
+commit e5bf26aea96c24440b50f3bb5c97d0e75cadc9a3
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Tue Nov 19 00:42:45 2019 -0500
+
+    written has_valid_kings and display()
+
+commit 91a3fc2882650d140ded60b5b294c8f95583e944
+Author: Qinyuan Wu <qwu29@jhu.edu>
+Date:   Mon Nov 18 20:59:29 2019 -0500
+
+    update to make_move uptill pawn and more member functions in board.h
+
+commit 8e2a41ffbe94e43e1dddaaf3435b629998f6076f
+Author: Qinyuan Wu <qwu29@jhu.edu>
+Date:   Sat Nov 16 20:02:23 2019 -0500
+
+    more updates
+
+commit ca488d9891109321c6b623c3f638b845cdf4b330
+Author: Qinyuan Wu <qwu29@jhu.edu>
+Date:   Sat Nov 16 18:04:52 2019 -0500
+
+    new helper functions for board.h, make_move incomplete
+
+commit e66a93cfbaac11c35e35f3267b55e0df367df556
+Author: Yiyang Li <yli302@jhu.edu>
+Date:   Fri Nov 15 22:13:22 2019 -0500
+
+    Makefile mostly implemented
+
+commit 38731edd1efcc6e13ade08895744ab35a18d273b
+Author: Yiyang Li <yli302@jhu.edu>
+Date:   Fri Nov 15 20:33:46 2019 -0500
+
+    istream constructor implemented
+
+commit e3ffc16350167800b7846474f64608f1f62171e0
+Merge: 08e47b1 ae589a1
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Fri Nov 15 13:12:27 2019 -0500
+
+    Merge branch 'master' of https://bitbucket.org/QinyuanWu/cs220final
+
+commit 08e47b1832d37abf08c61044d03658e6186cabb4
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Fri Nov 15 13:11:15 2019 -0500
+
+    add_piece and operator() partially written, not complete yet
+
+commit ae589a1722507a01bea701bee8e9b833bd0886e7
+Author: Qinyuan Wu <qwu29@jhu.edu>
+Date:   Thu Nov 14 23:40:15 2019 -0500
+
+    updated pawn and erased legal_capture in subclasses if not overriding
+
+commit 545e1a6b203949cd28d1b346f9cec3f337a22a8c
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Thu Nov 14 18:41:30 2019 -0500
+
+    legal move shape and legal capture shape modified slightly, pls check
+
+commit b228193b64942ac7c19e6ab1884ebe1405949e30
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Thu Nov 14 18:21:12 2019 -0500
+
+    class declaration of legal_capture shape added to Pawn.h, will be defined in Pawn.cpp
+
+commit 1da1424b294d25b17afd148d85dd7880bedcb275
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Thu Nov 14 18:19:41 2019 -0500
+
+    legal_capture_shape added to .h files of all piece subclasses except for pawn
+
+commit abdba6c53e8c6baef069c55e575d0d5d213f9077
+Merge: b221f3c 99a9588
+Author: Qinyuan Wu <qwu29@jhu.edu>
+Date:   Thu Nov 14 16:45:10 2019 -0500
+
+    Merge branch 'master' of https://bitbucket.org/QinyuanWu/cs220final
+
+commit b221f3ce443f07a19e89c375fca798f4ed2b98aa
+Author: Qinyuan Wu <qwu29@jhu.edu>
+Date:   Thu Nov 14 16:44:46 2019 -0500
+
+    more readable
+
+commit 99a9588d6283253d2e0ee3cb7b51334c9a839628
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Thu Nov 14 16:38:53 2019 -0500
+
+    changed logic of Queen legal move shape slightly, check and if fine delete old code
+
+commit 4c8ead2ee8aecc3b2326190047737ccdb465ae26
+Author: Shreya Wadhwa <swadhwa5@ugradx.cs.jhu.edu>
+Date:   Thu Nov 14 16:33:25 2019 -0500
+
+    changed logic of legal_move_shape for king, check if correct and then delete old one
+
+commit dc81c486f21900d9d11489c97f5b471bbdcaf128
+Author: Qinyuan Wu <qwu29@jhu.edu>
+Date:   Thu Nov 14 01:13:40 2019 -0500
+
+    completed legal_move for all pieces
+
+commit 577eb194ebab9c2692cf6bd79ea43a3b734ba2ff
+Author: Qinyuan Wu <qwu29@jhu.edu>
+Date:   Mon Nov 11 14:24:57 2019 -0500
+
+    initial files
